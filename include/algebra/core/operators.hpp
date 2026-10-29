@@ -1,6 +1,6 @@
 #pragma once
 
-namespace njr::algebra {
+namespace algebra {
 
 template<class Derived>
 struct AdditiveOperators {

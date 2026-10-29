@@ -1,9 +1,9 @@
 #pragma once
 
 #include <concepts>
-#include <njr/algebra/core/operations.hpp>
+#include <algebra/core/operations.hpp>
 
-namespace njr::algebra {
+namespace algebra {
 
 template<class T>
 concept AlgebraElement = std::copyable<T> && requires(const T& a, const T& b) {

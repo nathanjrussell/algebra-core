@@ -1,10 +1,10 @@
 #pragma once
 
 #include <type_traits>
-#include <njr/algebra/core/concepts.hpp>
-#include <njr/algebra/core/interfaces.hpp>
+#include <algebra/core/concepts.hpp>
+#include <algebra/core/interfaces.hpp>
 
-namespace njr::algebra {
+namespace algebra {
 
 template<class E>
 class AdditiveGroupStructure : public virtual interfaces::AbelianGroup<E, Addition> {

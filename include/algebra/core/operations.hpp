@@ -1,8 +1,8 @@
 #pragma once
 
-#include <njr/algebra/core/descriptors.hpp>
+#include <algebra/core/descriptors.hpp>
 
-namespace njr::algebra {
+namespace algebra {
 
 template<class T, class Op>
 struct operation;

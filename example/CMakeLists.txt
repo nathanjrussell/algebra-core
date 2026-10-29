@@ -1,2 +1,2 @@
-add_executable(njr_algebra_core_example core_example.cpp)
-target_link_libraries(njr_algebra_core_example PRIVATE njr::algebra_core)
+add_executable(algebra_core_example core_example.cpp)
+target_link_libraries(algebra_core_example PRIVATE algebra::core)

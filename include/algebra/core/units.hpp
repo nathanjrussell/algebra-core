@@ -3,11 +3,11 @@
 #include <stdexcept>
 #include <type_traits>
 #include <utility>
-#include <njr/algebra/core/concepts.hpp>
-#include <njr/algebra/core/operators.hpp>
-#include <njr/algebra/core/structures.hpp>
+#include <algebra/core/concepts.hpp>
+#include <algebra/core/operators.hpp>
+#include <algebra/core/structures.hpp>
 
-namespace njr::algebra {
+namespace algebra {
 
 template<RingElement T>
 class UnitGroup;

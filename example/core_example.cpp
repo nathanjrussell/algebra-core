@@ -1,8 +1,8 @@
 #include <iostream>
 #include <string>
-#include <njr/algebra/core/core.hpp>
+#include <algebra/core/core.hpp>
 
-using namespace njr::algebra;
+using namespace algebra;
 
 struct WordDescriptor : AlgebraDescriptor {
     using generic_category = MonoidCategory;

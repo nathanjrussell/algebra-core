@@ -3,9 +3,9 @@
 #include <stdexcept>
 #include <string>
 #include <gtest/gtest.h>
-#include <njr/algebra/core/core.hpp>
+#include <algebra/core/core.hpp>
 
-using namespace njr::algebra;
+using namespace algebra;
 
 struct BinaryField;
 

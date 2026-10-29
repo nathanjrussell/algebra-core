@@ -4,9 +4,9 @@
 #include <cstdint>
 #include <limits>
 #include <stdexcept>
-#include <njr/algebra/core/concepts.hpp>
+#include <algebra/core/concepts.hpp>
 
-namespace njr::algebra {
+namespace algebra {
 
 constexpr bool is_prime(std::uint32_t value) {
     if (value < 2) {
